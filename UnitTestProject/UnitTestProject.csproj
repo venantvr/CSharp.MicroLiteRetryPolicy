@@ -85,7 +85,7 @@
       <Project>{30312fcd-3f7d-41ab-a4e8-83fe471031f8}</Project>
       <Name>MicroLite</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RetryPolicy\RetryPolicies.csproj">
+    <ProjectReference Include="..\RetryPolicies\RetryPolicies.csproj">
       <Project>{38756e9d-5a6b-4e0e-8ef8-d43dd672276d}</Project>
       <Name>RetryPolicies</Name>
     </ProjectReference>

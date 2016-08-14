@@ -67,7 +67,7 @@
       <Project>{cb5b53b3-a6c3-47e6-bd6e-f05c0eca5586}</Project>
       <Name>Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RetryPolicy\RetryPolicies.csproj">
+    <ProjectReference Include="..\RetryPolicies\RetryPolicies.csproj">
       <Project>{38756e9d-5a6b-4e0e-8ef8-d43dd672276d}</Project>
       <Name>RetryPolicies</Name>
     </ProjectReference>
