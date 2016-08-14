@@ -15,15 +15,6 @@ namespace MicroLitePoc
 {
     internal class Program
     {
-        // This is the code that may experience transient errors
-        private static void NavigateTo()
-        {
-            Console.WriteLine(DateTime.Now);
-
-            var wc = new WebClient();
-            wc.DownloadString(@"c:\\temp.txt");
-        }
-
         private static void Main(string[] args)
         {
             var retry = new RetryRunTime<RetryPolicies.Policies.CustomRetryPolicy>(TimeSpan.FromSeconds(2));
