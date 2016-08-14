@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroLitePoc", "MicroLite\MicroLitePoc.csproj", "{30312FCD-3F7D-41AB-A4E8-83FE471031F8}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{38DF624C-645B-4D51-8F2D-16AC157A2587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{156CBF80-BBA3-4FE7-A0CE-890F92E2B241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryPolicies", "RetryPolicy\RetryPolicies.csproj", "{38756E9D-5A6B-4E0E-8EF8-D43DD672276D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{CB5B53B3-A6C3-47E6-BD6E-F05C0ECA5586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{4C6A31E2-E99D-4006-AB42-B5394B3ED665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{11DE20BD-5A40-44A8-880D-CBCD30411F7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Policies", "Policies", "{060CD802-121C-4719-BF14-569703EF3C0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modeling", "Modeling", "{E6EEB2DD-FFB9-4907-BF35-53335229E07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30312FCD-3F7D-41AB-A4E8-83FE471031F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30312FCD-3F7D-41AB-A4E8-83FE471031F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30312FCD-3F7D-41AB-A4E8-83FE471031F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30312FCD-3F7D-41AB-A4E8-83FE471031F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DF624C-645B-4D51-8F2D-16AC157A2587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DF624C-645B-4D51-8F2D-16AC157A2587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DF624C-645B-4D51-8F2D-16AC157A2587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DF624C-645B-4D51-8F2D-16AC157A2587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156CBF80-BBA3-4FE7-A0CE-890F92E2B241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156CBF80-BBA3-4FE7-A0CE-890F92E2B241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156CBF80-BBA3-4FE7-A0CE-890F92E2B241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156CBF80-BBA3-4FE7-A0CE-890F92E2B241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38756E9D-5A6B-4E0E-8EF8-D43DD672276D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38756E9D-5A6B-4E0E-8EF8-D43DD672276D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38756E9D-5A6B-4E0E-8EF8-D43DD672276D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38756E9D-5A6B-4E0E-8EF8-D43DD672276D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5B53B3-A6C3-47E6-BD6E-F05C0ECA5586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5B53B3-A6C3-47E6-BD6E-F05C0ECA5586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5B53B3-A6C3-47E6-BD6E-F05C0ECA5586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5B53B3-A6C3-47E6-BD6E-F05C0ECA5586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6A31E2-E99D-4006-AB42-B5394B3ED665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6A31E2-E99D-4006-AB42-B5394B3ED665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6A31E2-E99D-4006-AB42-B5394B3ED665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6A31E2-E99D-4006-AB42-B5394B3ED665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38DF624C-645B-4D51-8F2D-16AC157A2587} = {E6EEB2DD-FFB9-4907-BF35-53335229E07A}
+		{156CBF80-BBA3-4FE7-A0CE-890F92E2B241} = {11DE20BD-5A40-44A8-880D-CBCD30411F7A}
+		{38756E9D-5A6B-4E0E-8EF8-D43DD672276D} = {060CD802-121C-4719-BF14-569703EF3C0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.0\lib\NET4;packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\DesignTime
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal

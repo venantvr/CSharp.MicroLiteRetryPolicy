@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="335154e1-2410-4e53-94a6-1d1f02c1ac07" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="22f83646-ed05-4487-ac09-f150d014fbc3" name="Data">
+      <references>
+        <reference Id="949cb216-2236-45be-8267-5875e0237f38" name="Customers.cs">
+          <ArtifactNode Label="Customers.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/MicroLitePoc.csproj&quot; File=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/Customers.cs&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=MicroLitePoc Namespace=MicroLitePoc Type=Customers)" Label="Customers" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="9cb76e14-c040-485a-870d-0e83c0e070b3" name="Business">
+      <references>
+        <reference Id="cef8fd81-0370-4841-ad94-ecc466bd202e" name="ReadOnlyCustomers_V1.cs">
+          <ArtifactNode Label="ReadOnlyCustomers_V1.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/MicroLitePoc.csproj&quot; File=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/ReadOnlyCustomers_V1.cs&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=MicroLitePoc Namespace=MicroLitePoc Type=ReadOnlyCustomers_V1)" Label="ReadOnlyCustomers_V1" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="7ea768aa-9109-453a-b134-f10cd3f141cc" name="ReadOnlyCustomers_V2.cs">
+          <ArtifactNode Label="ReadOnlyCustomers_V2.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/MicroLitePoc.csproj&quot; File=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/ReadOnlyCustomers_V2.cs&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=MicroLitePoc Namespace=MicroLitePoc Type=ReadOnlyCustomers_V2)" Label="ReadOnlyCustomers_V2" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ccde8611-6e57-41a8-9f17-98694cb06ec1" name="Presentation">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="8be9b0dc-a555-4330-82e8-387e08799b6c" direction="Forward">
+          <layerMoniker Id="22f83646-ed05-4487-ac09-f150d014fbc3" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="c85441f0-9790-44ba-bd71-841bb2dbf281" direction="Forward">
+          <layerMoniker Id="9cb76e14-c040-485a-870d-0e83c0e070b3" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="e2240d80-1353-4f0c-a22e-93773e68fb79" name="Program.cs">
+          <ArtifactNode Label="Program.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/MicroLitePoc.csproj&quot; File=&quot;$(PersonalUri)/Visual Studio 2012/Projects/MicroLite/MicroLite/MicroLite/Program.cs&quot;)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=MicroLitePoc Namespace=MicroLitePoc Type=Program)" Label="Program" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>
