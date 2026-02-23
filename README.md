@@ -18,4 +18,4 @@ Politique de retry pour l'ORM MicroLite : gestion des erreurs transitoires SQL S
 
 ## Stack
 
-C# / .NET Framework / MicroLite ORM / SQL Server
+[![Stack](https://skillicons.dev/icons?i=dotnet,cs&theme=dark)](https://skillicons.dev)
